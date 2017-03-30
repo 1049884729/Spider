@@ -6,7 +6,10 @@ package com.gobeike.run;
 public class TestMain {
     public static void main(String[] args){
         Txt99Spider txt99Spider=new Txt99Spider();
+//        txt99Spider.jsoupGet();
+
+        WeixinSougouSpider weixinSougouSpider=new WeixinSougouSpider();
 //        txt99Spider.getInfo();
-        txt99Spider.jsoupGet();
+        weixinSougouSpider.getHostInfo();
     }
 }
